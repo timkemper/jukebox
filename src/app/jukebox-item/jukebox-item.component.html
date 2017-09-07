@@ -1,0 +1,11 @@
+<a style="cursor: pointer;" [style.background-color]="color"
+   class="list-group-item clearfix" #jbItem>
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{song?.name}}</h4>
+    <p class="list-group-item-text">{{song?.description}}</p>
+  </div>
+  <div class="pull-right">
+       <span class="img-responsive" style="max-height: 50px;">
+      {{song?.length}}</span>
+  </div>
+</a>

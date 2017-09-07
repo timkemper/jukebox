@@ -1,0 +1,8 @@
+{"title" : "Demo Songs" ,
+"songs" :
+[{"name":"This Town","description":"Songwriter: Tim Kemper","audioPath":"assets/thisTownDemo.m4a","length":"0:30"},
+{"name":"Down To The Beach","description":"Songwriter: Tim Kemper","audioPath":"assets/downToTheBeach.m4a","length":"0:30"},
+{"name":"I Used To Be","description":"Songwriter: Tim Kemper","audioPath":"assets/iUsedToBeDemo.m4a","length":"0:30"},
+{"name":"The Cost","description":"Songwriter: Tim Kemper","audioPath":"assets/theCostDemo2.m4a","length":"0:30"}
+]
+}

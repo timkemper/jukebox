@@ -1,0 +1,15 @@
+.list-group-item-text {
+  line-height: 1.0;
+}
+
+p {
+  font-size: 14px;
+}
+
+span {
+  font-size: 14px;
+}
+
+.h1, h1 {
+  font-size: 14px;
+}

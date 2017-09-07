@@ -1,0 +1,9 @@
+{"title" : "Tim Kemper Demo Songs" ,
+"songs" :
+[
+{"name":"This Town","description":"Songwriter: Tim Kemper","audioPath":"assets/thisTownDemo.m4a","length":"4:01"},
+{"name":"Down To The Beach","description":"Songwriter: Tim Kemper","audioPath":"assets/downToTheBeach.m4a","length":"3:04"},
+{"name":"All These Years","description":"Songwriter: Mac McAnally","audioPath":"assets/allTheseYears.m4a","length":"3:29"},
+{"name":"The Cost","description":"Songwriter: Tim Kemper","audioPath":"assets/theCostDemo2.m4a","length":"2:42"},
+]
+}

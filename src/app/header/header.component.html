@@ -1,0 +1,33 @@
+<div #header class="text-center">
+    <h1>{{title}}</h1>
+
+  <button type="button" class="icon-button" (click)="previous()">
+    <span class="glyphicon glyphicon-step-backward"></span>
+  </button>
+
+  <button type="button" class="icon-button" (click)="previousJump()">
+    <span class="glyphicon glyphicon-backward"></span>
+  </button>
+
+  <button type="button" class="icon-button" *ngIf="!isPlaying" (click)="play()">
+    <span class="glyphicon glyphicon-play"></span>
+  </button>
+
+  <button type="button" class="icon-button" *ngIf="isPlaying" (click)="pause()">
+    <span class="glyphicon glyphicon-pause"></span>
+  </button>
+
+  <button type="button" class="icon-button" (click)="stop()">
+    <span class="glyphicon glyphicon-stop"></span>
+  </button>
+
+  <button type="button" class="icon-button" (click)="nextJump()">
+    <span class="glyphicon glyphicon-forward"></span>
+  </button>
+
+  <button type="button" class="icon-button" (click)="next()">
+    <span class="glyphicon glyphicon-step-forward"></span>
+  </button>
+
+
+</div>

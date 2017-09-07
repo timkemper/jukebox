@@ -1,0 +1,12 @@
+<div class="row" [ngStyle]="{'height': viewHeight}" #jbList>
+  <div class="col-xs-12"  *ngIf="songs != null">
+
+    <jukebox-item *ngFor="let jukeboxItem of songs; let i = index"
+                     [song]="jukeboxItem"
+                     [index]="i"
+                     [color]="(i == selectedIndex) ? '#9bd5ef' : 'LightGray'"
+                     [scrollIntoView] = "(i == selectedIndex)"
+                     (click) = "onSelectItem(i)"></jukebox-item>
+    <!-- can also pass recipeItem as the param -->
+  </div>
+</div>
