@@ -11,8 +11,7 @@ To utilize you can download the code and build it in angular:
  
 or you can just copy the code from the dist directory, placing in the subdirectory of your webserver, then placing your audio files in a directory named assets along with a jukebox.json file (see example file) that defines the path to the audiofiles and text metadata that will appear in the ui as well as text that appears at the top of the page.
  
-Here's a screenshot of how it looks on my website:
- [[https://github.com/timkemper/jukebox/blob/master/docs/jukebox-screenshot.png|alt=jukebox screenshot]]
+[Here's a link for a screenshot of how it looks on my website](https://github.com/timkemper/jukebox/blob/master/docs/jukebox-screenshot.png)
 
 If you just want to use the pre-built code in your website:
 
