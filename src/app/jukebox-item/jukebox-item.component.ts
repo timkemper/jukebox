@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ElementRef, Renderer } from '@angular/core';
 import {Song} from "../song.model";
 
 @Component({
@@ -14,7 +14,7 @@ export class JukeboxItemComponent implements OnInit {
   @Input() color: string;
   @ViewChild('jbItem') elementView : ElementRef;
 
-  constructor() { }
+  constructor(private renderer: Renderer) { }
 
   ngOnInit() {
     //if(this.scrollIntoView) {
@@ -24,7 +24,8 @@ export class JukeboxItemComponent implements OnInit {
 
   @Input() set scrollIntoView(value: boolean) {
     if(value) {
-      this.elementView.nativeElement.scrollIntoView(false);
+      this.renderer.invokeElementMethod(this.elementView.nativeElement, 'scrollIntoView', [false]);
+      //this.elementView.nativeElement.scrollIntoView(false);
     }
   }
 

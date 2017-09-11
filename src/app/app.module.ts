@@ -24,7 +24,7 @@ import {HeaderSizingService} from "./header/header.sizing.service";
     FormsModule,
     HttpModule
   ],
-  providers: [JukeboxService, HeaderSizingService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
